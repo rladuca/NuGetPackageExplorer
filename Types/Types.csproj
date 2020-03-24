@@ -1,13 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
     <Description>Contains types to enable the plugin architecture in NuGet Package Explorer.</Description>
     <Product>NuGet Package Explorer</Product>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>NuGetPackageExplorer.snk</AssemblyOriginatorKeyFile>
     <AssemblyName>NuGetPackageExplorer.Types</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
